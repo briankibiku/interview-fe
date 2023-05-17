@@ -25,7 +25,7 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-       <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{marginInline: "20px"}}>
+       <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{paddingInline: "20px"}}>
       <h4>ToDo</h4><img src={MyLogo} alt='tick' height="40" width="40" />
 
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

@@ -85,7 +85,7 @@ class Tasks extends Component {
                 <span>
                   <button
                     onClick={() => this.editItem(item)}
-                    className="btn btn-secondary m-2"
+                    className="btn btn-success m-2"
                   >
                     Edit
                   </button>
